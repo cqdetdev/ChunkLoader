@@ -1,0 +1,5 @@
+main: ChunkLoader\Loader
+api: [5.0.0, 4.0.0]
+name: ChunkLoader
+description: A plugin to manually load all the chunks of a world.
+version: 1.1.1
