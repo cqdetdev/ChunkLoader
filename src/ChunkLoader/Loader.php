@@ -23,7 +23,6 @@ class Loader extends PluginBase implements Listener {
             foreach ($ar as $coords => $chunk) {
                 [$x, $z] = $coords;
                 $w->loadChunk($x, $z);
-                $w->getProvider()->saveChunk($x, $z, $chunk);
                 $this->getLogger()->info("Manually loaded chunk: ($x, $z)");
             }
         }
